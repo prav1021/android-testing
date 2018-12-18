@@ -43,6 +43,7 @@ public class LogHistory implements Parcelable {
         // Prepare an array of strings and an array of timestamps.
         String[] texts = new String[mData.size()];
         long[] timestamps = new long[mData.size()];
+        int x;
 
         // Store the data in the arrays.
         for (int i = 0; i < mData.size(); i++) {
